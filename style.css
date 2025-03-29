@@ -14,18 +14,23 @@ body {
 
 .grid-container {
     border: solid 2px black;
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    overflow: auto;
 }
 
 .grid {
-    border: solid 2px red;
+    /* border: solid 2px red; */
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 

@@ -5,7 +5,7 @@ function getSquareNum (squareNum) {
     grid.textContent = "";
 
     //calc square size based on container
-    const containerSize = 700;
+    const containerSize = 750;
     const squareSize = containerSize / squareNum;
 
     //create squares
@@ -20,4 +20,4 @@ function getSquareNum (squareNum) {
     return product;
 }
 
-getSquareNum(4);
+getSquareNum(16);
