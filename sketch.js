@@ -43,3 +43,12 @@ squares.forEach(square => {
         square.style.backgroundColor = "white";
     });
 });
+
+const eraseBtn = document.querySelector(".erase-btn");
+squares.forEach(square => {
+    eraseBtn.addEventListener("click", () => {
+        square.addEventListener("click", () => {
+            square.style.backgroundColor = "white";
+        })
+    });
+});
