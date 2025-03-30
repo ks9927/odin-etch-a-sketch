@@ -24,6 +24,10 @@ button {
     font-size: 1rem;
     cursor: pointer;
 }
+
+#colorPicker {
+    display: none;
+}
 .grid-container {
     border: solid 2px black;
     width: 800px;
