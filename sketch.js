@@ -21,3 +21,11 @@ function getSquareNum (squareNum) {
 }
 
 getSquareNum(16);
+
+const squares = document.querySelectorAll(".square");
+
+squares.forEach(square => {
+    square.addEventListener("click", () => {
+        square.style.backgroundColor = "black";
+    });
+});
