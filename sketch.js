@@ -25,7 +25,7 @@ getSquareNum(16);
 const squares = document.querySelectorAll(".square");
 
 squares.forEach(square => {
-    square.addEventListener("click", () => {
+    square.addEventListener("mouseover", () => {
         square.style.backgroundColor = "black";
     });
 });
@@ -60,7 +60,7 @@ colorPicker.addEventListener('input', function(e) {
     currentColor = e.target.value;
 });
 squares.forEach(square => {
-    square.addEventListener('click', function() {
+    square.addEventListener('mouseover', function() {
         this.style.backgroundColor = currentColor;
     });
 });
