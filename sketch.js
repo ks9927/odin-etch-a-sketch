@@ -53,5 +53,5 @@ squares.forEach(square => {
     });
 });
 
+
 const colorPicker = document.querySelector("#colorPicker");
-const colorBtn = document.querySelector(".color-btn");

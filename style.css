@@ -25,9 +25,7 @@ button {
     cursor: pointer;
 }
 
-#colorPicker {
-    display: none;
-}
+
 .grid-container {
     border: solid 2px black;
     width: 800px;
