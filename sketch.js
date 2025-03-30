@@ -55,3 +55,12 @@ squares.forEach(square => {
 
 
 const colorPicker = document.querySelector("#colorPicker");
+let currentColor = colorPicker.value;
+colorPicker.addEventListener('input', function(e) {
+    currentColor = e.target.value;
+});
+squares.forEach(square => {
+    square.addEventListener('click', function() {
+        this.style.backgroundColor = currentColor;
+    });
+});
