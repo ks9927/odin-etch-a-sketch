@@ -36,3 +36,10 @@ resizeBtn.addEventListener("click", () => {
     getSquareNum(userChoice);
     return userChoice;
 })
+
+const clearBtn = document.querySelector(".clear-btn");
+squares.forEach(square => {
+    clearBtn.addEventListener("click", () => {
+        square.style.backgroundColor = "white";
+    });
+});
