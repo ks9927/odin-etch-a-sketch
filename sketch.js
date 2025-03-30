@@ -29,3 +29,10 @@ squares.forEach(square => {
         square.style.backgroundColor = "black";
     });
 });
+
+const resizeBtn = document.querySelector(".resize-btn");
+resizeBtn.addEventListener("click", () => {
+    let userChoice = prompt("Pick a size. Max: 100");
+    getSquareNum(userChoice);
+    return userChoice;
+})
