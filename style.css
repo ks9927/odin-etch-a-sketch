@@ -51,6 +51,6 @@ button {
 
 .square {
     flex: 0 0 auto;
-    border: solid 2px blue;
+    border: solid 2px black;
     cursor: pointer;
 }
